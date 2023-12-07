@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+
+/* Import các base CSS */
+@import url(./base/button.css);
+@import url(./base/icon.css);
+@import url(./base/input.css);
+@import url(./base/reset.css);
+
+/* Import các layout CSS */
+@import url(./layouts/admin/header.css);
+@import url(./layouts/admin/menu.css);
+@import url(./layouts/admin/main-content.css);
+@import url(./layouts/admin/home.css);
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
